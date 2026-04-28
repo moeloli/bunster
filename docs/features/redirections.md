@@ -84,7 +84,7 @@ This is semantically equivalent to:
 echo "Hello World" &>file.txt 
 
 # Or
-echo "Hello World" 1>file.txt 2>&2
+echo "Hello World" 1>file.txt 2>&1
 ```
 
 ## Appending standard output and standard error
@@ -107,7 +107,7 @@ This is semantically equivalent to:
 echo "Hello World" &>>file.txt 
 
 # Or
-echo "Hello World" 1>>file.txt 2>&2
+echo "Hello World" 1>>file.txt 2>&1
 ```
 
 ## Here string
